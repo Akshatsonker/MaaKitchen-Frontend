@@ -296,7 +296,7 @@ function SignupFormDemo() {
         return;
       }
 
-      const response = await axios.post('http://localhost:8080/signUp/signUp', {
+      const response = await axios.post('https://maakitchen-backend.onrender.com', {
         firstname: formData.firstname,
         lastname: formData.lastname,
         email: formData.email,
