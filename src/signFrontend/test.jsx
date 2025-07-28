@@ -296,7 +296,7 @@ function SignupFormDemo() {
         return;
       }
 
-      const response = await axios.post('https://maa-kitchen-1.onrender.com/signUp', {
+      const response = await axios.post('https://maa-kitchen-1.onrender.com/signUp/signUp', {
         firstname: formData.firstname,
         lastname: formData.lastname,
         email: formData.email,
