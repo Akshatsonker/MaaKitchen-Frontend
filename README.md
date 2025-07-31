@@ -11,9 +11,9 @@
 
 ## 📸 Project Showcase
 
-![Maakitchen UI](./screenshots/maakitchen-UI.jpg)
-![Recipe Generation](./screenshots/recipe-ai.png)
-![Payment Checkout](./screenshots/razorpay.png)
+![Maakitchen UI](maakitchen-UI.png)
+![Recipe Generation](recipe.png)
+![Payment Checkout](payment.png)
 
 ---
 
