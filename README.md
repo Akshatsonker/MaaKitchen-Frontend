@@ -12,8 +12,16 @@
 ## 📸 Project Showcase
 
 ![Maakitchen UI](maakitchen-UI.png)
+*MaaKitchen UI*
+
+![Maakitchen UI](mobile.png)
+*MaaKitchen mobile UI*
+
 ![Recipe Generation](recipe.png)
+*Generate Recipe*
+
 ![Payment Checkout](payment.png)
+*Payment Checkout*
 
 ---
 
