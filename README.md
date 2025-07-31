@@ -75,7 +75,7 @@
 🧠 Technology Stack
 | Layer        | Technologies                                             |
 | ------------ | -------------------------------------------------------- |
-| **Frontend** | React.js, React 19, Chakra UI, TailwindCSS, Framer Motion |
+| **Frontend** | React.js, Chakra UI, TailwindCSS, Framer Motion |
 | **Backend**  | Express.js, Node.js, MongoDB, Mongoose                   |
 | **AI/ML**    | Google Generative AI API                                 |
 | **Payments** | Razorpay                                                 |
