@@ -1,129 +1,120 @@
-# 🍽️ Maakitchen
+# 🧑‍🍳 Maakitchen: AI-Enhanced Culinary Platform
 
-**Maakitchen** is a modern, full-stack food-tech web application that blends culinary creativity with powerful technology. From personalized recipes to secure user authentication, Maakitchen is built for performance, security, and beautiful design.
+[![React.js](https://img.shields.io/badge/React.js-19-blue.svg)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-green.svg)]()
+[![Razorpay](https://img.shields.io/badge/Payments-Razorpay-orange.svg)]()
+[![Google AI](https://img.shields.io/badge/AI-Gemini-blueviolet.svg)]()
 
----
-
-## ✨ Features
-
-- 🍔 **Smart Recipe Generation** (using Google Generative AI)
-- 🔐 Secure Authentication with **JWT** and **bcryptjs**
-- 📦 Robust backend using **Express** + **MongoDB/Mongoose**
-- 💳 Seamless Payment Integration via **Razorpay**
-- 🌐 Realtime Data with **Firebase**
-- 🎨 Stunning UI with **Chakra UI**, **TailwindCSS**, and **Framer Motion**
-- 🔁 Client-Side Routing using **React Router**
-- 🧠 Form Validation with **Joi**
-- 📦 Modular Architecture for Scalable Development
+> Maakitchen is a full-stack food-tech application built for food lovers and creators. It blends AI-powered recipe generation, secure transactions, and beautiful UI for a seamless kitchen experience.
 
 ---
 
-## 🛠️ Tech Stack
+## 📸 Project Showcase
 
-### 🧩 Frontend
-- **React 19**, **Next.js**
-- **TailwindCSS**, **Chakra UI**, **Emotion**
-- **Framer Motion** & **Motion** for animations
-- **Typed.js** for dynamic typing effects
-- **React Icons**, **Tabler Icons**
-- **React Router DOM**
-
-### 🚀 Backend
-- **Node.js**, **Express.js**
-- **MongoDB** with **Mongoose**
-- **JWT** for authentication
-- **bcryptjs** for password hashing
-- **Joi** for schema validation
-- **Razorpay** for payments
-- **Firebase** for realtime features
+![Maakitchen UI](./screenshots/maakitchen-UI.jpg)
+![Recipe Generation](./screenshots/recipe-ai.png)
+![Payment Checkout](./screenshots/razorpay.png)
 
 ---
 
-## 📦 Dependencies
+## 🌟 Key Features
 
-> All major dependencies used in the app:
+### 🍳 AI-Powered Cooking Assistant
+- Smart recipe suggestions using **Google Generative AI**
+- Ingredient-based dynamic recipe generation
+- Personalized cooking guidance
 
-### Backend
+### 🔐 Secure Authentication & Validation
+- JWT-based token authentication
+- Password hashing with **bcryptjs**
+- Schema validation using **Joi**
 
-```json
-{
-  "bcryptjs": "^3.0.2",
-  "body-parser": "^2.2.0",
-  "cors": "^2.8.5",
-  "dotenv": "^17.2.0",
-  "express": "^5.1.0",
-  "joi": "^17.13.3",
-  "jsonwebtoken": "^9.0.2",
-  "mongodb": "^6.17.0",
-  "mongoose": "^8.16.3",
-  "razorpay": "^2.9.6"
-}
-Frontend
-json
-Copy
-Edit
-{
-  "@chakra-ui/react": "^3.22.0",
-  "@emotion/react": "^11.14.0",
-  "@google/generative-ai": "^0.24.1",
-  "@radix-ui/react-label": "^2.1.7",
-  "@tabler/icons-react": "^3.34.0",
-  "@tailwindcss/vite": "^4.1.11",
-  "axios": "^1.10.0",
-  "clsx": "^2.1.1",
-  "firebase": "^12.0.0",
-  "framer-motion": "^12.23.3",
-  "motion": "^12.23.3",
-  "next": "^15.4.5",
-  "react": "^19.1.0",
-  "react-dom": "^19.1.0",
-  "react-icons": "^5.5.0",
-  "react-router-dom": "^7.6.3",
-  "tailwind-merge": "^3.3.1",
-  "typed.js": "^2.1.0"
-}
-🧪 Installation
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/maakitchen.git
-cd maakitchen
-2. Install Backend & Frontend Dependencies
-bash
-Copy
-Edit
-# Backend
-cd backend
-npm install
+💸 Razorpay Payment Integration – Fast, Secure & Scalable
 
-# Frontend
-cd ../frontend
-npm install
-3. Setup Environment Variables
-Create .env files in both backend/ and frontend/ folders.
+       ⚡ Lightning-fast checkout experience with Razorpay’s seamless UI
+        
+        🏦 Accepts cards, wallets, and net banking effortlessly
+    
+        🧾 Auto-generates secure order IDs and receipts
 
-Example .env for backend:
+        🔐 Server-side verification using Razorpay Node SDK + Express
+ 
+        📊 Real-time payment status tracking and error handling
 
-env
-Copy
-Edit
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/maakitchen
-JWT_SECRET=your_jwt_secret
-RAZORPAY_KEY_ID=your_key_id
-RAZORPAY_KEY_SECRET=your_key_secret
-🚀 Run the App
-Start Backend Server
-bash
-Copy
-Edit
-cd backend
-npm start
-Start Frontend Dev Server
-bash
-Copy
-Edit
-cd frontend
-npm run dev
-📸 Screenshots
+        💼 Perfectly suited for paid recipes, subscriptions, or cooking classes
+
+
+
+🎨 Stunning UI/UX
+
+
+    Built with Next.js, Chakra UI, and Tailwind CSS
+
+    Responsive, mobile-first design
+    
+    Animations via Framer Motion and Motion
+
+
+🔥 Realtime & Cloud Support
+
+    storage and real-time features
+    
+    Typed.js for dynamic header effects
+    
+    Icon-rich design with Tabler Icons & React Icons
+
+
+🧠 Technology Stack
+| Layer        | Technologies                                             |
+| ------------ | -------------------------------------------------------- |
+| **Frontend** | Next.js, React 19, Chakra UI, TailwindCSS, Framer Motion |
+| **Backend**  | Express.js, Node.js, MongoDB, Mongoose                   |
+| **AI/ML**    | Google Generative AI API                                 |
+| **Payments** | Razorpay                                                 |
+| **Security** | JWT, bcryptjs, Joi                                       |
+| **Cloud**    | Firebase                                                 |
+
+🔒 Security Highlights
+
+✅ JWT authentication with expiry
+
+✅ Passwords hashed with bcryptjs
+
+✅ Environment secrets managed via .env
+
+✅ CORS-protected API routes
+
+✅ Input validation using joi schemas
+
+
+
+🗺 Roadmap
+
+
+🚧 Phase 1 – Core Launch
+
+   AI recipe assistant
+
+   Razorpay integration
+
+   real-time storage
+
+   JWT auth system
+
+   Chakra UI theming
+
+🚀 Phase 2 – Upcoming Enhancements
+
+   User dashboards with meal plans
+
+   Voice assistant integration
+
+   Recipe sharing via social links
+
+   Shopping list generator
+
+ 
+
+
+
+
