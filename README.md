@@ -1,6 +1,6 @@
 # 🧑‍🍳 Maakitchen: AI-Enhanced Culinary Platform
 
-[![React.js](https://img.shields.io/badge/React.js-19-blue.svg)]()
+[![React.js](https://img.shields.io/badge/React.js-19.0-blue.svg)]()
 [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-green.svg)]()
 [![Razorpay](https://img.shields.io/badge/Payments-Razorpay-orange.svg)]()
 [![Google AI](https://img.shields.io/badge/AI-Gemini-blueviolet.svg)]()
@@ -56,7 +56,7 @@
 🎨 Stunning UI/UX
 
 
-    Built with Next.js, Chakra UI, and Tailwind CSS
+    Built with React.js, Chakra UI, and Tailwind CSS
 
     Responsive, mobile-first design
     
@@ -80,7 +80,7 @@
 | **AI/ML**    | Google Generative AI API                                 |
 | **Payments** | Razorpay                                                 |
 | **Security** | JWT, bcryptjs, Joi                                       |
-| **Cloud**    | Firebase                                                 |
+
 
 🔒 Security Highlights
 
